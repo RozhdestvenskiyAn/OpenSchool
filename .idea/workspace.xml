@@ -1,18 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc842792-86b0-46b8-82f4-a5a0098c974d" name="Changes" comment="" />
+    <list default="true" id="cc842792-86b0-46b8-82f4-a5a0098c974d" name="Changes" comment="supplier init">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f0fbf4c8-2349-4426-a1bc-ea2c954710cb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f0fbf4c8-2349-4426-a1bc-ea2c954710cb/storage_v2/_src_/database/supplier.zPnbnA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f0fbf4c8-2349-4426-a1bc-ea2c954710cb/storage_v2/_src_/database/supplier.zPnbnA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f0fbf4c8-2349-4426-a1bc-ea2c954710cb/storage_v2/_src_/database/supplier.zPnbnA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f0fbf4c8-2349-4426-a1bc-ea2c954710cb/storage_v2/_src_/database/supplier.zPnbnA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/dto/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/handler/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/SupplierRestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/exception/SupplierRequestInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/exception/SupplierResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/exception/SupplierServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/handler/SupplierExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/validation/OnCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier/validation/OnUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/SupplierApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/handler/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/validation/OnCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/validation/OnUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/resources/liquibase/changesets/v1_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/resources/liquibase/changesets/v2_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/main/resources/liquibase/db.changelog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier/src/test/java/ru/rozhdestvenskiy/supplier/SupplierApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenSchool1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenSchool1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/src/main/java/ru/rozhdestvenskiy/sipplier/SipplierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sipplier/src/test/java/ru/rozhdestvenskiy/sipplier/SipplierApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/ru/rozhdestvenskiy/consumer/ConsumerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2d8PDLat6oBHhY1FfmymIuQ5AFr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,14 +113,158 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.docker-compose.yaml.consumer-app: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.supplier-app: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.supplier-db: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
+    "Maven.sipplier [clean].executor": "Run",
+    "Maven.sipplier [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConsumerApplication.executor": "Run",
+    "Spring Boot.SipplierApplication.executor": "Run",
+    "Spring Boot.SupplierApplication.executor": "Run",
+    "git-widget-placeholder": "lesson1",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/andrey/IdeaProjects/OpenSchool1/supplier/src/main/resources/liquibase/changesets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.rozhdestvenskiy.sipplier.api.dto" />
+      <recent name="ru.rozhdestvenskiy.sipplier.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/supplier/src/main/resources/liquibase/changesets" />
+      <recent name="$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/integration/supplier" />
+      <recent name="$PROJECT_DIR$/supplier" />
+      <recent name="$PROJECT_DIR$/consumer" />
+      <recent name="$PROJECT_DIR$/sipplier/src/main/java/ru/rozhdestvenskiy/sipplier/api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sipplier/src/main/resources/liquebase" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.rozhdestvenskiy.consumer.integration.supplier.exception" />
+      <recent name="ru.rozhdestvenskiy.consumer.controller" />
+      <recent name="ru.rozhdestvenskiy.consumer.integration.supplier.dto" />
+      <recent name="ru.rozhdestvenskiy.consumer.integration.supplier" />
+      <recent name="ru.rozhdestvenskiy.sipplier.api.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml.supplier-db: Compose Deployment">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.rozhdestvenskiy.consumer.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.rozhdestvenskiy.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="supplier" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.rozhdestvenskiy.supplier.SupplierApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.consumer-app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="consumer-app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.supplier-app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="supplier-app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.supplier-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="supplier-db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml.supplier-db: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.supplier-app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.consumer-app: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,11 +273,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709386614510</updated>
-      <workItem from="1709386615617" duration="1000" />
+      <workItem from="1709386615617" duration="18812000" />
+      <workItem from="1709447537241" duration="21954000" />
+      <workItem from="1709495163661" duration="6472000" />
+      <workItem from="1709572322682" duration="8583000" />
+      <workItem from="1709756689702" duration="3420000" />
     </task>
+    <task id="LOCAL-00001" summary="supplier init">
+      <option name="closed" value="true" />
+      <created>1709386718925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709386718925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="supplier init" />
+    <option name="LAST_COMMIT_MESSAGE" value="supplier init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/11/src/main/java/ru/rozhdestvenskiy/sipplier/api/controller/ProductController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer/src/main/java/ru/rozhdestvenskiy/consumer/handler/ControllerExceptionHandler.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/supplier/src/main/java/ru/rozhdestvenskiy/supplier/api/controller/ProductController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

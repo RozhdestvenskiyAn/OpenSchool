@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OpenSchool1.iml" filepath="$PROJECT_DIR$/OpenSchool1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sipplier/sipplier.iml" filepath="$PROJECT_DIR$/sipplier/sipplier.iml" />
     </modules>
   </component>
 </project>

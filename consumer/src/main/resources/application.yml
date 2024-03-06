@@ -1,0 +1,5 @@
+server:
+  port: 8081
+integration:
+  supplier:
+    url: http://supplier-app:8080/api/v1/

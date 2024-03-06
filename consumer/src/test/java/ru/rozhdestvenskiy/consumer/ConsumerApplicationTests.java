@@ -1,10 +1,10 @@
-package ru.rozhdestvenskiy.sipplier;
+package ru.rozhdestvenskiy.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SipplierApplicationTests {
+class ConsumerApplicationTests {
 
     @Test
     void contextLoads() {
